@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-image: url('https://i.imgur.com/vJe7HMx.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.header-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aqua;
+    text-align: center;
+    font-size: 32pt;
+    font-style: italic;
+    z-index: 2;
+}
+
+.fade-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1462332420958-a05d1e002413?q=80&w=1807&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+    box-shadow: inset 0px -100px 100px -50px rgba(0, 0, 0, 0.7);
+}
+
+.shadow-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.7) 80%, rgba(0, 0, 0, 0.95) 100%);
+    z-index: 2;
+    pointer-events: none;
+}
+.side-image {
+    position: absolute;
+    width: 18vw;
+    height: 15vw;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+}
+
+.left-image {
+    left: 10%;
+    background-image: url('https://i.imgur.com/tK3dsy5.png');
+}
+
+.right-image {
+    right: 10%;
+    background-image: url('https://i.imgur.com/SELUw91.png');
+}
+
+.left-image2 {
+    left: 10%;
+    background-image: url('https://i.imgur.com/Mkhys8j.png');
+}
+
+.right-image2 {
+    right: 10%;
+    background-image: url('https://i.imgur.com/57dhv9f.png');
+}
+
+.frame {
+    padding: 10px;
+    align-items: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.planet-image {
+    width: 25vw;
+    height: 35vw;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 50px 50px black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mars {
+    background-image: url('https://i.imgur.com/E69PB7M.jpeg'); 
+}
+
+.jupiter {
+    background-image: url('https://i.imgur.com/zAiDxh0.jpeg');
+}
+
+.saturn {
+    background-image: url('https://i.imgur.com/XY2NEgW.jpeg');
+}
+
+.neptune {
+    background-image: url('https://i.imgur.com/mZbT4cb.jpeg');
+}
